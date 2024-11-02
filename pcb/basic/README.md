@@ -31,7 +31,7 @@ Using standard XL4005 module:
 ## Resources
 - [BOM](BOM_PowMr%20Hybrid%20Inverter_1-PCB_PCB_PowMr%20Inverter_2024-11-03.xlsx)
 - [Schematics](SCH_PowMr%20Hybrid%20Inverter_2024-11-03.pdf)
-- [Gerber](Gerber_1-PCB_PCB_PowMr_Inverter_2024-11-03)
+- [Gerber](Gerber_1-PCB_PCB_PowMr_Inverter_2024-11-03.zip)
 - [EasyEDA project backup](ProPrj_PowMr-Hybrid-Inverter_2024-11-03.epro)
 - PCB Top 
 ![PCB Top layer](pcb_top.png)
