@@ -2,6 +2,8 @@
 
 OSHWLab page: https://oshwlab.com/ganzevich/PowMr-Hybrid-Inverter
 
+![Assembled in case bottom](assembled_case_b.png)
+
 ## PSU module connection
 Using standard XL4005 module:
 
@@ -23,10 +25,8 @@ Using standard XL4005 module:
 <img src="photos/pzem_ac_connection.jpeg" alt="PZEM AC connection diagram" width="600" height="auto">
 <img src="photos/pzem_installation_example.jpeg" alt="PZEM module connection example" width="600" height="auto">
 
-## Case examples
-*Using old 1.0 board version*
-<img src="photos/case_composition_example.jpeg" alt="Case composition example" width="600" height="auto">
-<img src="photos/case_mount_example.jpeg" alt="Case mount example" width="600" height="auto">
+## Case
+- [STL model](3DShell_1-PCB_PCB_PowMr Inverter (1).zip)
 
 ## Resources
 - [BOM](BOM_PowMr%20Inverter.csv)
