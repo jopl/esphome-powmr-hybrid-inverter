@@ -26,13 +26,13 @@ Using standard XL4005 module:
 <img src="photos/pzem_installation_example.jpeg" alt="PZEM module connection example" width="600" height="auto">
 
 ## Case
-- [STL model](3DShell_1-PCB_PCB_PowMr Inverter (1).zip)
+- [STL model](3DShell_1-PCB_PCB_PowMr_Inverter.zip)
 
 ## Resources
-- [BOM](BOM_PowMr%20Inverter.csv)
-- [Schematics](Schematic_PowMr%20Inverter.pdf)
-- [Gerber](Gerber_PCB_PowMr%20Inverter.zip)
-- [EasyEDA project backup](easyeda_project_backup.zip)
+- [BOM](BOM_PowMr Hybrid Inverter_1-PCB_PCB_PowMr Inverter_2024-11-03.xlsx)
+- [Schematics](SCH_PowMr Hybrid Inverter_2024-11-03.pdf)
+- [Gerber](Gerber_1-PCB_PCB_PowMr_Inverter_2024-11-03)
+- [EasyEDA project backup](ProPrj_PowMr-Hybrid-Inverter_2024-11-03.epro)
 - PCB Top 
 ![PCB Top layer](pcb_top.png)
 - PCB Bottom
