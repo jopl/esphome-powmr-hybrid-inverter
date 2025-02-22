@@ -4,16 +4,16 @@
 - 4501 : Output Source Priority *(Returns index with offset. I'd prefer to use register 4537)* `settings`
 - 4502 : AC Voltage `measurement`
 - 4503 : AC Frequency `measurement`
-- 4504 : PV Voltage (?) `measurement`
-- 4505 : Charging *(right now)* `settings`
+- 4504 : PV Voltage (?) `measurement` / PV1 Voltage `measurement` (**HVM10.2M confirmed**)
+- 4505 : Charging *(right now)* `settings` / PV1 Power `measurement` (**HVM10.2M confirmed**)
 - 4506 : Battery Voltage `measurement`
 - 4507 : Battery SoC `measurement`
 - 4508 : Battery Charge Current `measurement`
 - 4509 : Battery Discharge Current `measurement`
 - 4510 : Load Voltage `measurement`
 - 4511 : Load Frequency `measurement`
-- 4512 : Load Power `measurement`
-- 4513 : Load VA `measurement`
+- 4512 : Load Power `measurement` / Load Apparent Power `measurement` (**HVM10.2M confirmed**)
+- 4513 : Load VA `measurement` / Load Active Power `measurement` (**HVM10.2M confirmed**)
 - 4514 : Load Percent `measurement`
 - 4515 : Load Percent `measurement`
 - 4516 : Binary flags `binary_flags`
@@ -57,7 +57,9 @@
     * `0x100` AC Active
     * `0x8000` AC Active
 - 4555 : Charger Status *(0 - Off, 1 - Idle, 2 - Active)*
-- 4557 : Temperature sensor (**HVM3.6M confirmed**, **HVM2.4H not confirmed**)
+- 4557 : Temperature sensor (**HVM3.6M confirmed**, **HVM2.4H not confirmed**, **HVM10.2M confirmed**)
+- 4563 : PV2 Voltage `measurement` (**HVM10.2M confirmed**)
+- 4564 : PV2 Power `measurement` (**HVM10.2M confirmed**)
 
 ### Write registers
 *( [+] means tested )*
