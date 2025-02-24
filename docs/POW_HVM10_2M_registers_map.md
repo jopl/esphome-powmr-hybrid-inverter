@@ -25,7 +25,7 @@
 - 4516 : Binary flags `binary_flags`
 - 4530 : Error Code
     * `0x0000` No warning or error `measurement`
-    * `0x0020` PV energy is low `settings`
+    * `0x0020` PV energy is low `measurement`
 - 4535 : Settings flags `binary_flags`
     * `0x0001` Record Fault Code `settings`
     * `0x0002` Battery Equalization `settings`
