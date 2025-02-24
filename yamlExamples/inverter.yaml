@@ -954,7 +954,7 @@ sensor:
     accuracy_decimals: 1
     icon: mdi:solar-power
     lambda: |-
-      if (id(pv_voltage).state == 0) {
+      if (id(pv2_voltage).state == 0) {
         return 0;
       } else {
         return id(pv2_power).state / id(pv2_voltage).state;
