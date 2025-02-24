@@ -66,6 +66,10 @@
     * `0x0100` AC Active `measurement`
     * `0x8000` AC Active `measurement`
 - 4555 : Charger Status *(0 - Off, 1 - Idle, 2 - Active)*
+    * `0x000A` Discharging `measurement`
+    * `0x000B` Charging `measurement`
+    * `0x000C` Idle `measurement`
+    * `0x000D` Fully charged `measurement`
 - 4557 : Internal temperature sensor `measurement`
 - 4563 : PV2 Voltage `measurement`
 - 4564 : PV2 Power `measurement`
