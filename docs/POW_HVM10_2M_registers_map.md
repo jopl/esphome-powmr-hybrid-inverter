@@ -23,9 +23,26 @@
 - 4514 : Load Percent `measurement`
 - 4515 : Load Percent `measurement`
 - 4516 : Binary flags `binary_flags`
+- 4517 : stable value 520 `unclear significance`
+- 4518 : stable value 7912 `unclear significance`
+- 4519 : stable value 0 `unclear significance`
+- 4520 : stable value 2 `unclear significance`
+- 4521 : stable value 10200 (Device Maximal Power)
+- 4522 : stable value 10200 (Device Maximal Power)
+- 4523 : stable value 230 (Target Voltage)
+- 4524 : stable value 44 `unclear significance`
+- 4525 : stable value 480 `unclear significance`
+- 4526 : stable value 230 `unclear significance`
+- 4527 : stable value 500 `unclear significance`
+- 4528 : stable value 44 `unclear significance`
+- 4529 : stable value 0 `unclear significance`
 - 4530 : Error Code
     * `0x0000` No warning or error `measurement`
     * `0x0020` PV energy is low `measurement`
+- 4531 : stable value 5535 `unclear significance`
+- 4532 : stable value 5535 `unclear significance`
+- 4533 : stable value 5535 `unclear significance`
+- 4534 : stable value 55 `unclear significance`
 - 4535 : Settings flags `binary_flags`
     * `0x0001` Record Fault Code `settings`
     * `0x0002` Battery Equalization `settings`
@@ -40,6 +57,7 @@
 - 4536 : Charger Source Priority `settings`
 - 4537 : Output Source Priority `settings`
 - 4538 : AC Input Voltage Range `settings`
+- 4539 : stable value 2
 - 4540 : Target Output Frequency `settings`
     * `0x0000` 50 Hz `settings`
     * `0x0001` 60 Hz `settings`
@@ -70,7 +88,13 @@
     * `0x000B` Charging `measurement`
     * `0x000C` Idle `measurement`
     * `0x000D` Fully charged `measurement`
+- 4556 : Status, reflects register 4555 in states 0x0B, 0x0C, 0x0D, but 0x00 instead of 0x0A `measurement`
 - 4557 : Internal temperature sensor `measurement`
+- 4558 : stable value 0 `unclear significance`
+- 4559 : stable value 0 `unclear significance`
+- 4560 : stable value 1 `unclear significance`
+- 4561 : stable value 1 `unclear significance`
+- 4562 : stable value 0 `unclear significance`
 - 4563 : PV2 Voltage `measurement`
 - 4564 : PV2 Power `measurement`
 
