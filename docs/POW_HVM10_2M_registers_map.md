@@ -47,7 +47,13 @@
     * `0x0001` Record Fault Code `settings`
     * `0x0002` Battery Equalization `settings`
     * `0x0004` Equalization Activated Immediately `settings`
+    * `0x0008` `unclear significance`
+    * `0x0010` `unclear significance`
+    * `0x0020` `unclear significance`
+    * `0x0040` `unclear significance`
+    * `0x0080` `unclear significance`
     * `0x0100` Alarm `settings`
+    * `0x0200` `unclear significance`
     * `0x0400` Backlight `settings`
     * `0x0800` Restart On Overload `settings`
     * `0x1000` Restart On Overheat `settings`
